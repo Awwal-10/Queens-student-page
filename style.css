@@ -13,34 +13,37 @@ body {
   color: #fff;
 }
 
-/* Header */
 header {
   background: var(--blue);
   color: #fff;
-  padding: 1rem;
+  padding: 1.2rem;
   text-align: center;
 }
 
-/* Main container */
 main {
   background: var(--card-bg);
   color: var(--text-dark);
   max-width: 900px;
   margin: 2rem auto;
-  border-radius: 12px;
-  padding: 1.5rem;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-/* Headings */
 h2 {
   color: var(--blue);
-  font-size: 1.6rem;
-  margin-top: 1.8rem;
+  font-size: 1.7rem;
+  margin-top: 2rem;
 }
 
-/* Links */
+p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
 a {
   color: var(--blue);
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -48,22 +51,23 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Image styling */
 img {
-  border-radius: 12px;
+  border-radius: 16px;
   display: block;
-  margin: 1rem 0;
+  margin: 1.2rem 0;
+  max-width: 100%;
+  height: auto;
 }
 
-/* Lists */
 ul {
   padding-left: 1.2rem;
   line-height: 1.5;
 }
 
-/* Improve spacing for readability */
-p {
-  line-height: 1.6;
-  margin-bottom: 1rem;
+.project {
+  background: #f7f9fc;
+  padding: 1.2rem;
+  margin: 1.2rem 0;
+  border-radius: 14px;
+  border-left: 5px solid var(--blue);
 }
-
