@@ -1,32 +1,31 @@
 <!doctype html>
-<html lang="en"> <!-- Accessibility: declare language -->
+<html lang="en">
   <head>
-    <meta charset="utf-8"/> <!-- UTF-8 encoding -->
-    <meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- Responsive layout -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>My Queen’s Student Page</title>
-    <link rel="stylesheet" href="style.css"/> <!-- Maintainability: external CSS -->
+    <link rel="stylesheet" href="style.css"/>
   </head>
 
   <body>
     <header>
-      <h1>Awwal Ahmed</h1> <!-- Only one h1 -->
+      <h1>Awwal Ahmed</h1>
     </header>
 
     <main>
-      <!-- ====== ABOUT SECTION ====== -->
+      <!-- ABOUT -->
       <h2>About Me</h2>
       <p>
-        I’m a Computing student at Queen’s University who’s interested in how technology can solve real problems. 
-        My experience in research at UHN showed me the impact of AI in healthcare, and it pushed me to explore how 
-        computing connects with areas like finance, cybersecurity, and software engineering. I enjoy building things, 
+        I’m a Computing student at Queen’s University who’s interested in how technology can solve real problems.
+        My experience in research at UHN showed me the impact of AI in healthcare, and it pushed me to explore how
+        computing connects with areas like finance, cybersecurity, and software engineering. I enjoy building things,
         learning new tools, and working with others to turn ideas into projects.
       </p>
 
-      <!-- ====== PHOTO ====== -->
+      <!-- PHOTO -->
       <img src="me.JPG" alt="Awwal Ahmed portrait" width="239" height="320" />
-      <!-- Image loads correctly, alt text present, width/height set -->
 
-      <!-- ====== COURSES ====== -->
+      <!-- COURSES -->
       <h2>Courses</h2>
       <ul>
         <li>CISC 121 — Introduction to Programming.</li>
@@ -36,34 +35,59 @@
         <li>CISC 102 — Discrete Structures.</li>
       </ul>
 
-      <!-- ====== PROJECTS ====== -->
+      <!-- PROJECTS -->
       <h2>Projects</h2>
-      <ul>
-        <li>
-          <strong>Resume Keyword Matcher</strong>  
-          A Python app that compares resumes with job descriptions and highlights the missing keywords to help improve job applications.
-        </li>
 
-        <li>
-          <strong>Binary Search Visualizer</strong>  
-          A project I’m building that shows each step of the binary search process. It helps users understand how the algorithm moves and makes decisions.
-        </li>
-      </ul>
+      <div class="project">
+        <strong>Binary Search Visualizer</strong>
+        <p>
+          A visual tool that shows how the binary search algorithm works step by step. It helps users see how the
+          search space is divided and how decisions are made.
+        </p>
+        <a href="https://github.com/Awwal-10/binary-search-visualizer" target="_blank">
+          View on GitHub
+        </a>
+      </div>
 
-      <!-- ====== CONTACT ====== -->
+      <div class="project">
+        <strong>Resume Keyword Matcher</strong>
+        <p>
+          A Python app that compares resumes with job descriptions and highlights missing keywords to help users
+          improve their applications.
+        </p>
+        <a href="https://github.com/Awwal-10/resume-keyword-matcher" target="_blank">
+          View on GitHub
+        </a>
+      </div>
+
+      <div class="project">
+        <strong>CLI Task Manager</strong>
+        <p>
+          A command line tool that lets users create, update, and track daily tasks directly from the terminal.
+        </p>
+        <a href="https://github.com/Awwal-10/cli-task-manager" target="_blank">
+          View on GitHub
+        </a>
+      </div>
+
+      <div class="project">
+        <strong>Keyboard Language Translator</strong>
+        <p>
+          A live typing tool that translates text as you type to make multilingual communication faster and easier.
+        </p>
+        <a href="https://awwal-10.github.io/queens-networking-society/" target="_blank">
+          View Live Project
+        </a>
+      </div>
+
+      <!-- CONTACT -->
       <h2>Contact</h2>
       <p>Email: <a href="mailto:24krlm@queensu.ca">24krlm@queensu.ca</a></p>
-      <p>LinkedIn: <a href="#">www.linkedin.com/in/awwal-ahmed10</a></p>
+      <p>LinkedIn:
+        <a href="https://www.linkedin.com/in/awwal-ahmed10" target="_blank">
+          www.linkedin.com/in/awwal-ahmed10
+        </a>
+      </p>
     </main>
   </body>
 </html>
-
-<!-- ================== DETAILED CHECKLIST ================== -->
-<!-- Functionality: test links and images, check Network tab -->
-<!-- Clarity: headings clear, intro explains who and what -->
-<!-- Structure: <header> and <main> used correctly, only one <h1> -->
-<!-- Maintainability: styles live in style.css -->
-<!-- Performance: images sized, keep them under ~400 KB -->
-<!-- Security: only safe external links, no personal addresses -->
-<!-- Documentation: README explains image placement and updates -->
-<!-- Accessibility: alt text provided, good color contrast -->
